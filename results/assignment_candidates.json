@@ -1,0 +1,3074 @@
+{
+  "metadata": {
+    "input_xpk": "D:\\structure_inference\\noesy_g3f15x7.xpk",
+    "sequence": "TCGGGAAGGGAGGG",
+    "parsed_peak_count": 1245,
+    "ppm_tolerance": 0.03,
+    "min_intensity": 1.5,
+    "policy": "conservative",
+    "references": [
+      {
+        "topic": "NOE intensity-distance approximation",
+        "url": "https://pubs.rsc.org/en/content/articlehtml/2020/sc/d0sc02970j"
+      },
+      {
+        "topic": "Automated NOE assignment and r^-6 volume relation",
+        "url": "https://academic.oup.com/bioinformatics/article/23/3/381/235607"
+      },
+      {
+        "topic": "G-quadruplex NOESY walking, thymine methyl, imino validation",
+        "url": "https://academic.oup.com/nar/article/40/14/6946/2414847"
+      }
+    ]
+  },
+  "clusters": {
+    "h1prime_anomeric": [
+      {
+        "id": 0,
+        "ppm": 5.011,
+        "n": 1,
+        "min": 5.011,
+        "max": 5.011
+      },
+      {
+        "id": 1,
+        "ppm": 5.0802,
+        "n": 4,
+        "min": 5.072,
+        "max": 5.091
+      },
+      {
+        "id": 2,
+        "ppm": 5.132,
+        "n": 3,
+        "min": 5.131,
+        "max": 5.133
+      },
+      {
+        "id": 3,
+        "ppm": 5.361,
+        "n": 1,
+        "min": 5.361,
+        "max": 5.361
+      },
+      {
+        "id": 4,
+        "ppm": 5.4221,
+        "n": 11,
+        "min": 5.411,
+        "max": 5.439
+      },
+      {
+        "id": 5,
+        "ppm": 5.464,
+        "n": 4,
+        "min": 5.461,
+        "max": 5.47
+      },
+      {
+        "id": 6,
+        "ppm": 5.543,
+        "n": 1,
+        "min": 5.543,
+        "max": 5.543
+      },
+      {
+        "id": 7,
+        "ppm": 5.6465,
+        "n": 6,
+        "min": 5.624,
+        "max": 5.666
+      },
+      {
+        "id": 8,
+        "ppm": 5.693,
+        "n": 1,
+        "min": 5.693,
+        "max": 5.693
+      },
+      {
+        "id": 9,
+        "ppm": 5.7824,
+        "n": 11,
+        "min": 5.766,
+        "max": 5.805
+      },
+      {
+        "id": 10,
+        "ppm": 5.8357,
+        "n": 8,
+        "min": 5.831,
+        "max": 5.844
+      },
+      {
+        "id": 11,
+        "ppm": 5.884,
+        "n": 1,
+        "min": 5.884,
+        "max": 5.884
+      },
+      {
+        "id": 12,
+        "ppm": 5.9558,
+        "n": 6,
+        "min": 5.935,
+        "max": 5.966
+      },
+      {
+        "id": 13,
+        "ppm": 6.0103,
+        "n": 3,
+        "min": 5.988,
+        "max": 6.029
+      },
+      {
+        "id": 14,
+        "ppm": 6.0739,
+        "n": 12,
+        "min": 6.067,
+        "max": 6.085
+      },
+      {
+        "id": 15,
+        "ppm": 6.1275,
+        "n": 2,
+        "min": 6.126,
+        "max": 6.129
+      },
+      {
+        "id": 16,
+        "ppm": 6.194,
+        "n": 10,
+        "min": 6.183,
+        "max": 6.204
+      },
+      {
+        "id": 17,
+        "ppm": 6.265,
+        "n": 1,
+        "min": 6.265,
+        "max": 6.265
+      },
+      {
+        "id": 18,
+        "ppm": 6.317,
+        "n": 1,
+        "min": 6.317,
+        "max": 6.317
+      },
+      {
+        "id": 19,
+        "ppm": 6.412,
+        "n": 1,
+        "min": 6.412,
+        "max": 6.412
+      }
+    ],
+    "aromatic_base": [
+      {
+        "id": 0,
+        "ppm": 7.3007,
+        "n": 4,
+        "min": 7.299,
+        "max": 7.302
+      },
+      {
+        "id": 1,
+        "ppm": 7.484,
+        "n": 1,
+        "min": 7.484,
+        "max": 7.484
+      },
+      {
+        "id": 2,
+        "ppm": 7.5758,
+        "n": 9,
+        "min": 7.56,
+        "max": 7.579
+      },
+      {
+        "id": 3,
+        "ppm": 7.611,
+        "n": 1,
+        "min": 7.611,
+        "max": 7.611
+      },
+      {
+        "id": 4,
+        "ppm": 7.6826,
+        "n": 20,
+        "min": 7.665,
+        "max": 7.708
+      },
+      {
+        "id": 5,
+        "ppm": 7.7557,
+        "n": 21,
+        "min": 7.73,
+        "max": 7.782
+      },
+      {
+        "id": 6,
+        "ppm": 7.8297,
+        "n": 8,
+        "min": 7.816,
+        "max": 7.832
+      },
+      {
+        "id": 7,
+        "ppm": 7.9161,
+        "n": 8,
+        "min": 7.915,
+        "max": 7.917
+      },
+      {
+        "id": 8,
+        "ppm": 7.9737,
+        "n": 3,
+        "min": 7.973,
+        "max": 7.974
+      },
+      {
+        "id": 9,
+        "ppm": 8.033,
+        "n": 8,
+        "min": 8.031,
+        "max": 8.038
+      },
+      {
+        "id": 10,
+        "ppm": 8.0674,
+        "n": 5,
+        "min": 8.064,
+        "max": 8.071
+      }
+    ],
+    "imino": [
+      {
+        "id": 0,
+        "ppm": 10.9007,
+        "n": 4,
+        "min": 10.898,
+        "max": 10.902
+      },
+      {
+        "id": 1,
+        "ppm": 11.041,
+        "n": 6,
+        "min": 11.04,
+        "max": 11.042
+      },
+      {
+        "id": 2,
+        "ppm": 11.1727,
+        "n": 10,
+        "min": 11.17,
+        "max": 11.177
+      },
+      {
+        "id": 3,
+        "ppm": 11.2287,
+        "n": 4,
+        "min": 11.228,
+        "max": 11.229
+      },
+      {
+        "id": 4,
+        "ppm": 12.066,
+        "n": 1,
+        "min": 12.066,
+        "max": 12.066
+      },
+      {
+        "id": 5,
+        "ppm": 12.172,
+        "n": 1,
+        "min": 12.172,
+        "max": 12.172
+      },
+      {
+        "id": 6,
+        "ppm": 12.308,
+        "n": 2,
+        "min": 12.294,
+        "max": 12.322
+      },
+      {
+        "id": 7,
+        "ppm": 12.349,
+        "n": 1,
+        "min": 12.349,
+        "max": 12.349
+      },
+      {
+        "id": 8,
+        "ppm": 12.416,
+        "n": 4,
+        "min": 12.411,
+        "max": 12.419
+      }
+    ]
+  },
+  "top_paths": [
+    {
+      "score": 220.3921,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            5,
+            922
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 5.132,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            684,
+            734
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9737,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            599,
+            717
+          ],
+          "sequential_from_prev_peak_ids": [
+            716
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 220.1807,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 220.1807,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 220.1807,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.9919,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            44,
+            920
+          ],
+          "sequential_from_prev_peak_ids": [
+            5,
+            922
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.9737,
+          "h1prime_ppm": 5.132,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            716
+          ],
+          "sequential_from_prev_peak_ids": [
+            599,
+            717
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            31,
+            725
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            733,
+            775
+          ],
+          "sequential_from_prev_peak_ids": [
+            684,
+            734
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            872,
+            924
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.8905,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            3,
+            1015
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            44,
+            920
+          ],
+          "sequential_from_prev_peak_ids": [
+            5,
+            922
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9737,
+          "h1prime_ppm": 5.132,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            716
+          ],
+          "sequential_from_prev_peak_ids": [
+            599,
+            717
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            733,
+            775
+          ],
+          "sequential_from_prev_peak_ids": [
+            684,
+            734
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            872,
+            924
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.8741,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.8741,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.8741,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            45,
+            545
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    },
+    {
+      "score": 219.8516,
+      "residues": [
+        {
+          "residue": "T1",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.7824,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            42,
+            214
+          ],
+          "sequential_from_prev_peak_ids": [],
+          "methyl_peak_ids": [
+            93,
+            97
+          ],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "C2",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.0802,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            872,
+            924
+          ],
+          "sequential_from_prev_peak_ids": [
+            41,
+            233
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G3",
+          "base_ppm": 7.9161,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            6,
+            732
+          ],
+          "sequential_from_prev_peak_ids": [
+            733,
+            775
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            30,
+            727
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G4",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            5,
+            922
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G5",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.9558,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            43,
+            1224
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        },
+        {
+          "residue": "A6",
+          "base_ppm": 7.5758,
+          "h1prime_ppm": 5.8357,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            218
+          ],
+          "sequential_from_prev_peak_ids": [
+            215
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "A7",
+          "base_ppm": 8.033,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            0,
+            560
+          ],
+          "sequential_from_prev_peak_ids": [
+            7,
+            559
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G8",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            2,
+            1045
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            898,
+            899
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G9",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.194,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            4,
+            1017
+          ],
+          "sequential_from_prev_peak_ids": [
+            3,
+            1015
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G10",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.4221,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            48,
+            232,
+            254
+          ],
+          "sequential_from_prev_peak_ids": [
+            44,
+            920
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "A11",
+          "base_ppm": 7.8297,
+          "h1prime_ppm": 5.464,
+          "imino_ppm": null,
+          "intra_peak_ids": [
+            1046
+          ],
+          "sequential_from_prev_peak_ids": [
+            1,
+            1047
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [],
+          "notes": []
+        },
+        {
+          "residue": "G12",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 6.0739,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            3,
+            1015
+          ],
+          "sequential_from_prev_peak_ids": [
+            50,
+            543
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": [
+            "H1prime cluster reused elsewhere in path"
+          ]
+        },
+        {
+          "residue": "G13",
+          "base_ppm": 7.7557,
+          "h1prime_ppm": 5.6465,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            47,
+            49,
+            235
+          ],
+          "sequential_from_prev_peak_ids": [
+            5,
+            922
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            27,
+            913
+          ],
+          "notes": []
+        },
+        {
+          "residue": "G14",
+          "base_ppm": 7.6826,
+          "h1prime_ppm": 5.543,
+          "imino_ppm": 11.1727,
+          "intra_peak_ids": [
+            1011
+          ],
+          "sequential_from_prev_peak_ids": [
+            51,
+            1012,
+            1225
+          ],
+          "methyl_peak_ids": [],
+          "imino_peak_ids": [
+            29,
+            1019
+          ],
+          "notes": []
+        }
+      ]
+    }
+  ]
+}

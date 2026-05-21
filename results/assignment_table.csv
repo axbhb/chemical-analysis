@@ -1,0 +1,15 @@
+residue_index,residue,residue_type,base_ppm,h1prime_ppm,imino_ppm,intra_peak_ids,intra_intensity,intra_class,sequential_from_prev_peak_ids,sequential_from_prev_intensity,methyl_peak_ids,methyl_intensity,imino_peak_ids,imino_intensity,state_score,path_state_frequency,confidence,notes
+1,T1,T,7.5758,5.7824,,42;214,10.144,medium,,,93;97,11.024,,,11.398,1.000,high,
+2,C2,C,7.7557,5.6465,,47;49;235,7.491,medium,41;233,23.799,,,,,6.139,0.489,ambiguous,top-path posterior 0.49
+3,G3,G,7.6826,6.1940,11.1727,4;1017,14.011,medium,51;1012;1225,25.057,,,29;1019,9.355,10.546,0.405,ambiguous,top-path posterior 0.40
+4,G4,G,7.7557,6.0739,11.1727,5;922,36.770,strong,44;920,28.961,,,27;913,7.630,11.287,1.000,high,
+5,G5,G,7.6826,5.9558,11.1727,43;1224,3.054,weak,3;1015,39.130,,,29;1019,9.355,9.237,1.000,medium,weak intra/base-H1prime evidence
+6,A6,A,7.5758,5.8357,,218,3.381,weak,215,70.675,,,,,5.477,1.000,medium,weak intra/base-H1prime evidence
+7,A7,A,8.0330,5.4221,,0;560,16.311,medium,7;559,17.214,,,,,6.851,1.000,high,
+8,G8,G,7.8297,6.0739,11.1727,2;1045,16.767,medium,1;1047,25.992,,,898;899,3.656,9.916,0.632,ambiguous,H1prime cluster reused elsewhere in path; top-path posterior 0.63
+9,G9,G,7.7557,5.0802,11.1727,872;924,22.997,strong,5;922,36.770,,,27;913,7.630,9.333,0.141,ambiguous,top-path posterior 0.14
+10,G10,G,7.9161,5.1320,11.1727,684;734,14.531,medium,733;775,18.470,,,30;727,5.326,8.588,0.141,ambiguous,top-path posterior 0.14
+11,A11,A,7.9737,6.1940,,599;717,16.890,medium,716,10.608,,,,,6.884,0.141,ambiguous,H1prime cluster reused elsewhere in path; top-path posterior 0.14
+12,G12,G,7.7557,5.4221,11.1727,48;232;254,16.360,medium,44;920,28.961,,,27;913,7.630,10.509,0.489,ambiguous,H1prime cluster reused elsewhere in path; top-path posterior 0.49
+13,G13,G,7.8297,5.4640,11.1727,1046,1.783,very_weak,1;1047,25.992,,,898;899,3.656,8.062,0.320,ambiguous,top-path posterior 0.32; weak intra/base-H1prime evidence
+14,G14,G,7.6826,5.5430,11.1727,1011,21.355,strong,50;543,18.704,,,29;1019,9.355,10.945,1.000,high,
